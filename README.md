@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x. The skeleton has been preloaded with the [Acl](https://github.com/cakephp/acl), [AclManager](https://github.com/ivanamat/cakephp3-aclmanager), [Markdown](https://github.com/ivanamat/cakephp3-markdown), [Documents](https://github.com/ivanamat/cakephp3-documents) plugins. Manages groups, roles, users and ACL.
+A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x. The skeleton has been preloaded with the [Acl](https://github.com/cakephp/acl), [AclManager](https://github.com/ivanamat/cakephp3-aclmanager), [Markdown](https://github.com/ivanamat/cakephp3-markdown) and [Documents](https://github.com/ivanamat/cakephp3-documents) plugins. Manages groups, roles, users and ACL.
 
 ## Loaded plugins
 * The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
