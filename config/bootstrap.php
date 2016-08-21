@@ -196,6 +196,16 @@ Plugin::load('AclManager', ['bootstrap' => true, 'routes' => true]);
 Plugin::load('Markdown');
 Plugin::load('Documents', ['bootstrap' => false, 'routes' => true]);
 
+/**
+ * Documents plugin
+ * 
+ * Configure::write('Documents.auth.allow', ['index','view']);
+ * Configure::write('Categories.auth.allow', ['index','view']);
+ */
+Configure::write('Documents.home', ['plugin' => false, 'controller' => 'Pages', 'action' => 'display', 'home']);
+Configure::write('Documents.auth.allow', ['index','view']);
+Configure::write('Documents.index', '../plugins/Documents/README.md');
+
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
 if (Configure::read('debug')) {
