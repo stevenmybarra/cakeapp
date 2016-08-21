@@ -13,7 +13,8 @@
         "cakephp/plugin-installer": "~0.0",
         "cakephp/acl": "~0.2",
 	"ivanamat/cakephp3-aclmanager": "~1.0",
-	"ivanamat/cakephp3-markdown": "~1.0"
+	"ivanamat/cakephp3-markdown": "~1.0",
+	"ivanamat/cakephp3-documents": "~1.0"
     },
     "require-dev": {
         "psy/psysh": "@stable",
