@@ -190,9 +190,11 @@ Request::addDetector('tablet', function ($request) {
  *
  */
 
+Plugin::load('Migrations');
 Plugin::load('Acl', ['bootstrap' => true]);
 Plugin::load('AclManager', ['bootstrap' => true, 'routes' => true]);
-Plugin::load('Migrations');
+Plugin::load('Markdown');
+Plugin::load('Documents', ['bootstrap' => false, 'routes' => true]);
 
 // Only try to load DebugKit in development mode
 // Debug Kit should not be installed on a production system
