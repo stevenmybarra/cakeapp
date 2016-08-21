@@ -5,9 +5,12 @@
 
 A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x. The skeleton has been preloaded with the [Acl](https://github.com/cakephp/acl) and [AclManager](https://github.com/ivanamat/cakephp3-aclmanager) plugins. Manages groups, roles, users and ACL.
 
+## Loaded plugins
 * The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
 * The Acl plugin source code can be found here: [cakephp/acl](https://github.com/cakephp/acl).
 * The AclManager plugin source code can be found here: [ivanamat/cakephp3-aclmanager](https://github.com/ivanamat/cakephp3-aclmanager).
+* The Markdown plugin source code can be found here: [ivanamat/cakephp3-markdown](https://github.com/ivanamat/cakephp3-markdown).
+* The Documents plugin source code can be found here: [ivanamat/cakephp3-documents](https://github.com/ivanamat/cakephp3-documents).
 
 
 ## Installation
