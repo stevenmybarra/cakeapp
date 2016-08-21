@@ -122,3 +122,8 @@ Comment `$this->Auth->allow();` from initialize function and `return true;` from
 ## Enjoy!
 
 Now you can start customizing your permissions and Develop your app. Do not forget to update the ACOs when creating new functions.
+
+## Author
+
+Iván Amat on [GitHub](https://github.com/ivanamat)  
+[www.ivanamat.es](http://www.ivanamat.es/)
