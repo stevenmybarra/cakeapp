@@ -1,0 +1,9 @@
+_*
+/.directory
+/.gitignore
+/vendor/*
+/config/app.php
+/tmp/*
+/logs/*
+/nbproject/*
+/composer.lock
