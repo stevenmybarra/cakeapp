@@ -16,6 +16,8 @@
 
 # OS generated files #
 ######################
+_*
+.directory
 .DS_Store
 .DS_Store?
 ._*
