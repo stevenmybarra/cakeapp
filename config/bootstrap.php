@@ -189,6 +189,8 @@ Request::addDetector('tablet', function ($request) {
  * Plugin::load('Migrations'); //Loads a single plugin named Migrations
  *
  */
+Configure::write('AclManager.aros', array('Groups', 'Roles', 'Users'));
+Configure::write('AclManager.ignoreActions', array('isAuthorized'));
 
 Plugin::load('Migrations');
 Plugin::load('Acl', ['bootstrap' => true]);
