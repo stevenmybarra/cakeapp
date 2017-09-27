@@ -123,6 +123,13 @@ Comment `$this->Auth->allow();` from initialize function and `return true;` from
 
 Now you can start customizing your permissions and Develop your app. Do not forget to update the ACOs when creating new functions.
 
+## Changelog
+
+### v1.2
+
+* Updated version requirement to 1.* for latest ivanamat/cakephp3-aclmanager.
+* Updated version requirement to ~1.0 for latest cakephp/plugin-installer.
+
 ## Author
 
 Iván Amat on [GitHub](https://github.com/ivanamat)  
