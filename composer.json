@@ -1,8 +1,8 @@
 {
-    "name": "ivanamat/cakeapp",
+    "name": "stevenmybarra/cakeapp",
     "description": "CakePHP skeleton app with ACL, Groups, Roles and Users system",
-    "url" : "http://git.ivanamat.es/cakephp/app",
-    "homepage": "http://git.ivanamat.es/cakephp/app",
+    //"url" : "http://git.ivanamat.es/cakephp/app",
+    //"homepage": "http://git.ivanamat.es/cakephp/app",
     "type": "project",
     "license": "MIT",
     "require": {
